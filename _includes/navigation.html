@@ -1,0 +1,97 @@
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Navigatie</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navtopleft">
+                    <div class="navlogocontainer">
+                        <img class="navlogo" src="/img/logos/logo_rood.png"/>
+                    </div>
+                    <a href="/" class="navtext">Een nier <br/> voor Jeroen</a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    {% if page.url == '/' %}
+                        <li class="permanentactive">
+                    {% elsif page.url == '/index.html' %}
+                        <li class="permanentactive">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                        <a href="/">Jeroen</a>
+                        <ul class="hidden">
+                            <li>
+                                <a class="page-scroll" href="#jeroen">Jeroen</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#geennieren">Geen nieren</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#behandeling">Nieuwe behandeling</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#voortgang">Hoe ver we al zijn</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#helpen">Helpen</a>
+                            </li>
+                        </ul>
+                    </li>
+                    {% if page.url == '/helpen.html' %}
+                        <li class="permanentactive">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                        <a href="/helpen.html">Helpen</a>
+                        <ul class="hidden">
+                            <li>
+                                <a class="page-scroll" href="#overmaken">Overmaken</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#delen">Delen</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#ambassadeur">Ambassadeur</a>
+                            </li>
+                        </ul>
+                    </li>
+                    {% if page.url == '/blog.html' or page.blog == true %}
+                        <li class="permanentactive">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                        <a href="/blog.html">Blog</a>
+                    </li>
+                    {% if page.url == '/contact.html' %}
+                        <li class="permanentactive">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                        <a href="/contact.html">Contact</a>
+                        <ul>
+                            <li>
+                                <a class="page-scroll" href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#pers">Pers</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>

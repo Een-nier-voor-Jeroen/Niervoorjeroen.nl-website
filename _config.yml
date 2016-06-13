@@ -1,0 +1,3 @@
+gems:
+  - jekyll-sitemap
+excerpt_separator: "<excerptseparator></excerptseparator>" # excerpt separator for the blog excerpts

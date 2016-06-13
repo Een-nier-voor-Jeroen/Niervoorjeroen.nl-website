@@ -1,0 +1,29 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header.html %}
+
+<body id="page-top" class="index">
+
+    {% include navigation.html %}
+
+    <!-- Header -->
+    <header class="mainheader">
+        <div class="backgroundmask"></div>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Blog</div>
+                <div class="intro-heading">{{page.title}}</div>
+            </div>
+        </div>
+    </header>
+
+    {{content}}
+
+    {% include footer.html %}
+
+</body>
+
+</html>
