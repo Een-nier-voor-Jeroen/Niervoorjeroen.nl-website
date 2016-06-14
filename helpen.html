@@ -24,69 +24,7 @@
         </div>
     </header>
 
-    <!-- Doneren Section -->
-    <section id="doneren">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Doneren</h2>
-                    <h3 class="section-subheading text-muted">De dank van Jeroen voor uw hulp is moeilijk in woorden uit te drukken; u geeft hem oprecht een nieuw leven!</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6 donatepanel leftdonatepanel">
-                    <span class="donatecomment">
-                        Bedragen tot
-                    </span>
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <span class="fa-stack-1x donateamount">€250</span>
-                    </span>
-                    <h4 class="service-heading">kunt u direct betalen via iDeal.</h4>
-                    <div>
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <label class="sr-only" for="amount">Bedrag (in euros)</label>
-                            <div class="input-group">
-                            <div class="input-group-addon">€</div>
-                            <input type="text" class="form-control" id="amount" placeholder="Bedrag" value="200">
-                            <div class="input-group-addon">.00</div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-xl paynow" onclick="return openBetaalPagina();">Naar betaalpagina</button>
-                    </form>
-                    </div>
-                    <p class="text-muted"></p>
-                </div>
-                <div class="col-md-6 donatepanel">
-                    <span class="donatecomment">
-                        Bedragen van
-                    </span>
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <span class="fa-stack-1x donateamount">meer</span>
-                    </span>
-                    <span class="donatecomment">
-                        dan €250
-                    </span>
-                    <p>
-                        (of als betalen via iDeal niet lukt / u liever direct wilt overmaken)
-                    </p>
-                    <h4 class="service-heading">kunt u overmaken op NL49INGB0007182570 t.n.v. Stichting een nier voor Jeroen.</h4>
-                    <p>Als om een BIC code wordt gevraagd is dat INGBNL2A.</p>
-                    <p>Uw gift is voor Jeroen anoniem. Jeroen en zijn gezin hebben geen inzicht in wie er doneert en voor welk bedrag.</p>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h3>&nbsp;</h3>
-                    <p class="section-subheading text-muted">
-                        De Stichting Een nier voor Jeroen zal toezien op de inzameling van het bedrag<br /> en de verdere afwikkeling om het geld voor de behandeling te gebruiken.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    {% include doneren.html %}
 
     {% include delen_ambassadeur.html %}
 
