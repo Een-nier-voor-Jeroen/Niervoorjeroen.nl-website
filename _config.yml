@@ -1,3 +1,18 @@
 gems:
   - jekyll-sitemap
 excerpt_separator: "<excerptseparator></excerptseparator>" # excerpt separator for the blog excerpts
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "page" # use the singular `page` since Github Pages uses Jekyll 2.2.
+    values:
+      ogType: "article"
+      ogImage: "http://niervoorjeroen.nl/img/backgrounds/JeroenCormaMirre.jpg"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "post" # use the singular `post` since Github Pages uses Jekyll 2.2.
+    values:
+      ogType: "article"
+      ogImage: "http://niervoorjeroen.nl/img/backgrounds/JeroenCormaMirre.jpg"    
