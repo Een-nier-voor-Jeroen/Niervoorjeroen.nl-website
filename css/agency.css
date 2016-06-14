@@ -892,3 +892,16 @@ body {
   max-width: 600px;
   margin: 0px auto;
 }
+
+.blogoverview h3 {
+  margin-top: 20px;
+}
+
+.blogoverview h3.section-subheading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blogoverview .blogarticlesummary + .blogarticlesummary {
+  margin-top: 60px;
+}
