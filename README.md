@@ -5,3 +5,7 @@ Deze website is voor Jeroen van Setten. Jeroen heeft geen nieren, waardoor hij l
 ## Bijdrages
 
 Zie je iets dat niet klopt? Maak gerust een pull request of neem contact met ons op.
+
+## Copyright
+
+Het copyright van al het materiaal in deze repository ligt bij "Stichting een nier voor Jeroen".
