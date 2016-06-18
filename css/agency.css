@@ -71,7 +71,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #e2514a;
-  border-color: #7c1914;
+  border-color: rgba(0,0,0,0.1);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -118,7 +118,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: #ffffff;
   background-color: #e2514a;
-  border-color: #7c1914;
+  border-color: rgba(0,0,0,0.1);
   box-shadow: 0px 0px 10px #000;
 }
 .btn-xl:active,
