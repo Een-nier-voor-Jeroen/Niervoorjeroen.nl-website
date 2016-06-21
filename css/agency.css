@@ -230,13 +230,13 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fff;
 }
 .navbar-default .navlogocontainer {
-  display: block;
+  display: none;
 }
 .navbar-default .navtext {
   display: inline-block;
   margin-top: 0px;
 }
-@media (min-width: 500px) {
+@media (min-width: 360px) {
   .navbar-default .navlogocontainer {
     display: block;
   }
