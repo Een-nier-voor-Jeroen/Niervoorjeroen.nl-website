@@ -245,6 +245,9 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 @media (min-width: 768px) {
+  .btn-xl + .btn-xl {
+    margin-top: 0px;
+  }
   .navbar-default {
     background-color: transparent;
     padding: 25px 0;

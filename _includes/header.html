@@ -46,6 +46,13 @@
             }
             amount = amount.replace(",",".");
             var amountInCents = parseFloat(amount) * 100;
+            // Send analytics event
+            ga('send', 'event', {
+                eventCategory: 'Uitgaande link',
+                eventAction: 'click',
+                eventLabel: 'doneerknop'
+            });
+            // Open betaalpagina
             window.open("https://www.pay.nl/doneren/SL-2387-7650/0Lc64b3/?amount=" + amountInCents + "&amount_min=1000");
         }
     </script>
