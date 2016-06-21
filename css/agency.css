@@ -111,6 +111,9 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   padding: 20px 40px;
 }
+.btn-xl + .btn-xl {
+  margin-top: 20px;
+}
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -168,6 +171,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
   background-color: #fff;
   border-color: #fff;
+  margin-top: 22px;
+  margin-right: 22px;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #df4640;
@@ -224,15 +229,15 @@ fieldset[disabled] .btn-xl.active {
   color: #df4640;
   background-color: #fff;
 }
-.navbar-default .navlogo {
-  display: none;
+.navbar-default .navlogocontainer {
+  display: block;
 }
 .navbar-default .navtext {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 0px;
 }
 @media (min-width: 500px) {
-  .navbar-default .navlogo {
+  .navbar-default .navlogocontainer {
     display: block;
   }
   .navbar-default .navtext {
