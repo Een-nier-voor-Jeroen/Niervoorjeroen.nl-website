@@ -111,9 +111,6 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   padding: 20px 40px;
 }
-.btn-xl + .btn-xl {
-  margin-top: 20px;
-}
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -236,6 +233,9 @@ fieldset[disabled] .btn-xl.active {
   display: inline-block;
   margin-top: 0px;
 }
+.spacer {
+  display: block;
+}
 @media (min-width: 360px) {
   .navbar-default .navlogocontainer {
     display: block;
@@ -245,8 +245,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 @media (min-width: 768px) {
-  .btn-xl + .btn-xl {
-    margin-top: 0px;
+  .spacer {
+    display: inline;
   }
   .navbar-default {
     background-color: transparent;
