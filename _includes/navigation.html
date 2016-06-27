@@ -74,6 +74,13 @@
                     {% endif %}
                         <a href="/blog">Blog</a>
                     </li>
+                    {% if page.url == '/acties.html' %}
+                        <li class="permanentactive">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                        <a href="/acties">Acties</a>
+                    </li>
                     {% if page.url == '/contact.html' %}
                         <li class="permanentactive">
                     {% else %}
