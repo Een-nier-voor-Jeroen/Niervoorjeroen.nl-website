@@ -576,14 +576,14 @@ section p {
 }
 @media (min-width: 768px) {
   .timeline:before {
-    left: 50%;
+    left: 80%;
   }
   .timeline > li {
     margin-bottom: 100px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
-    width: 41%;
+    width: 71%;
     float: left;
     padding: 0 20px 20px 30px;
     text-align: right;
@@ -591,7 +591,7 @@ section p {
   .timeline > li .timeline-image {
     width: 100px;
     height: 100px;
-    left: 50%;
+    left: 80%;
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
