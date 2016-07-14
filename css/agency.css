@@ -328,6 +328,9 @@ header .container {
 header.mainheader {
   background-image: url('../img/backgrounds/JeroenCormaMirre.jpg');
 }
+header.fairheader {
+  background-image: url('../img/backgrounds/Zomerfair.jpg');
+}
 header.helpenheader {
   background-image: url('../img/backgrounds/AdmiraalDeRuyter.jpg');
 }
